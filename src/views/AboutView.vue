@@ -1,15 +1,14 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+  <h1>About Page</h1>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
 </template>
 
-<style>
-@media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
+<script>
+export default {
+
 }
+</script>
+
+<style>
+
 </style>
