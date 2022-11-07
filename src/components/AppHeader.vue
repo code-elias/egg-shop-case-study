@@ -1,3 +1,8 @@
+<script setup>
+import NavBarComponent from '@/components/shared/NavBarComponent.vue';
+</script>
+
+
 <template>
   <header>
     <!-- SHOP LOGO -->
@@ -11,21 +16,7 @@
   </header>
 </template>
 
-<script>
-import NavBarComponent from '@/components/shared/NavBarComponent.vue';
 
-  export default {
-    data() {
-      return {
-        
-      }
-    },
-
-    components: {
-      NavBarComponent
-    }
-  }
-</script>
 
 <style lang="scss" scoped>
 
