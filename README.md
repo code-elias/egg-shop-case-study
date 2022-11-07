@@ -2,6 +2,29 @@
 
 ## Project
 
+### Team Members
+
+* Nicola Caddeo - [nicolacaddeo]
+* Pietro Danieli - [1Pietro7D]
+* Alessandro Ramoni - [AlessandroRamoni]
+* Elias Mahfuzul Golam - [EliGolam]
+
+### Task & Files
+
+#### by nicolacaddeo
+
+// TBD 
+
+#### by 1Pietro7D
+
+// TBD 
+
+#### by AlessandroRamoni
+
+// TBD
+
+#### by EliGolam
+
 // TBD
 
 ## Vite/Vue Project Setup
