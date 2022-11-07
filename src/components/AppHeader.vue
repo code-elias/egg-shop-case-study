@@ -5,12 +5,14 @@
       <img src="@/assets/img/egg-shop-logo.png" alt="Egg Shop Logo" class="emg-img-fluid emg-shop-logo">
     </div>
 
-    
+    <NavBarComponent />
 
   </header>
 </template>
 
 <script>
+import NavBarComponent from '@/components/shared/NavBarComponent.vue';
+
   export default {
     data() {
       return {
@@ -18,8 +20,8 @@
       }
     },
 
-    methods: {
-      
+    components: {
+      NavBarComponent
     }
   }
 </script>
