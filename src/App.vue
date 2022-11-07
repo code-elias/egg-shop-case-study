@@ -1,6 +1,8 @@
 <template>
   <div id="app">
     <!-- Header -->
+    
+
     <!-- RouterView  = Main  -->
       <RouterView />
     <!-- Footer -->
