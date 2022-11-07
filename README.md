@@ -13,11 +13,16 @@
 
 #### by nicolacaddeo
 
-// TBD 
+##### Vue [nicolacaddeo]
+
+* Basic router setup (for testing functionalities)
 
 #### by 1Pietro7D
 
-// TBD 
+##### CSS / SCSS [1Pietro7D]
+
+* _flex.scss
+* _generics.scss
 
 #### by AlessandroRamoni
 
@@ -25,7 +30,9 @@
 
 #### by EliGolam
 
-// TBD
+##### CSS / SCSS [EliGolam]
+
+* _reset.scss: A reset to standardize CSS output on the browser
 
 ## Vite/Vue Project Setup
 
