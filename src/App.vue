@@ -1,23 +1,29 @@
+<script setup>
+import AppHeader from "@/components/AppHeader.vue";
+</script>
+
+
+
 <template>
   <div id="app">
     <!-- Header -->
     <AppHeader />
 
     <!-- RouterView  = Main  -->
-      <RouterView />
+    <RouterView />
     <!-- Footer -->
   </div>
 </template>
 
 <script>
-import AppHeader from './components/AppHeader.vue';
+// import AppHeader from './components/AppHeader.vue';
 
-export default {
+// export default {
 
-  components: {
-    AppHeader
-  }
-}
+//   components: {
+//     AppHeader
+//   }
+// }
 </script>
 
 <style>
