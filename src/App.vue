@@ -1,15 +1,21 @@
+<script setup>
+import AppFooter from './components/AppFooter.vue';
+</script>
+
 <template>
   <div id="app">
     <!-- Header -->
     <AppHeader />
 
     <!-- RouterView  = Main  -->
-      <RouterView />
+    <RouterView />
     <!-- Footer -->
+    <AppFooter />
   </div>
 </template>
 
 <script>
+
 import AppHeader from './components/AppHeader.vue';
 
 export default {
@@ -18,6 +24,7 @@ export default {
     AppHeader
   }
 }
+
 </script>
 
 <style>
