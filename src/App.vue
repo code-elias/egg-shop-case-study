@@ -22,6 +22,6 @@ import Homepage from '@/components/Homepage.vue';
 
 </script>
 
-<style>
-
+<style lang="scss">
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
 </style>
