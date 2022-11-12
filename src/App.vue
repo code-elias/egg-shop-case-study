@@ -1,6 +1,7 @@
 <script setup>
 import AppHeader from "@/components/AppHeader.vue";
 import AppFooter from './components/AppFooter.vue';
+import Homepage from '@/components/Homepage.vue';
 </script>
 
 <template>
@@ -8,6 +9,8 @@ import AppFooter from './components/AppFooter.vue';
     <!-- Header -->
     <AppHeader />
 
+    <!-- Homepage -->
+    <Homepage />
     <!-- RouterView  = Main  -->
     <RouterView />
     <!-- Footer -->

@@ -1,6 +1,9 @@
 <template>
     <h1>Prova Alessandro</h1>
-    <p>Holaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+    <p>Questo è il main</p>
+    <div>
+        <img src="../assets/img/breakfast.jpg" alt="">
+    </div>
 </template>
   
 <script>
