@@ -26,10 +26,10 @@
         </div>
 
         <!-- Sezione Menu -->
-        <div class="menu">
+        <div class="menu-book">
             <div class="contenitore-immagine">
                 <div class="immagine">
-                    <img src="../assets/img/breakfast.jpg" alt="">
+                    <img src="../assets/img/breakfast.jpg" alt="piatto misto">
                 </div>
             </div>
             <div class="contenitore-testo">
@@ -42,6 +42,26 @@
 
         </div>
 
+        <!-- Sezione Book -->
+        <div class="menu-book">
+
+            <div class="contenitore-testo">
+                <div class="testo" id="cookbook">
+                    <h1>COOKBOOK</h1>
+                    <p>Hey Ya'll! <br>
+                        The one and only <br>
+                        Egg Shop Cookbook <br>
+                        Is Now Available!</p>
+                    <button>BY NOW</button>
+                </div>
+            </div>
+
+            <div class="contenitore-immagine">
+                <div class="immagine">
+                    <img src="../assets/img/book.png" alt="book">
+                </div>
+            </div>
+        </div>
 
     </div>
 </template>
@@ -77,7 +97,7 @@ export default {};
     }
 }
 
-.menu {
+.menu-book {
     display: flex;
     align-items: center;
     padding-top: 100px;
@@ -101,6 +121,10 @@ export default {};
 
         .testo {
             max-width: 75%;
+        }
+
+        #cookbook {
+            padding-left: 300px;
         }
 
         h1 {
