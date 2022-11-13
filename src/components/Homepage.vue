@@ -1,6 +1,8 @@
+<!--  
+
 <template>
     <div class="contenitore-generale">
-        <!-- Sezione About US -->
+       
         <div class="about_us">
             <h1>About us</h1>
             <p>With a shared love for the universally coveted egg sandwich, husband/wife team Sarah Schneider and
@@ -25,7 +27,7 @@
                 egg-cooking techniques and provides recipes for more than 100 inventive egg-centric dishes.</p>
         </div>
 
-        <!-- Sezione Menu -->
+        
         <div class="menu-book">
             <div class="contenitore-immagine">
                 <div class="immagine">
@@ -42,7 +44,7 @@
 
         </div>
 
-        <!-- Sezione Book -->
+       
         <div class="menu-book">
 
             <div class="contenitore-testo">
@@ -109,10 +111,6 @@ export default {};
         .immagine {
             max-width: 85%;
             margin: 0 auto;
-            // position: absolute;
-            // top: 0;
-            // left: 0;
-            // transform: translate(-50%, -50%);
         }
     }
 
@@ -169,3 +167,4 @@ export default {};
     }
 }
 </style>
+ -->
