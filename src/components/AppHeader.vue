@@ -19,5 +19,18 @@ import NavBarComponent from '@/components/shared/NavBarComponent.vue';
 
 
 <style lang="scss" scoped>
+.emg-logo-container {
+  // Size
+  width: max(300px, 50vw);
+  max-width: 500px;
 
+  // Position
+  margin: 0 auto;
+}
+
+.emg-img-fluid {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
 </style>

@@ -1,11 +1,14 @@
 <template>
   <nav>
     <ul>
-      <!-- V-FOR LOOP -->
-      <li>
-        <!-- Dynamically Add router links though json file -->
-        <!-- <router-link></router-link>  -->
-      </li>
+      
+      <li><a href="#">Order Now</a></li>
+
+      <li><a href="#">Reservations</a></li>
+
+      <li><select name="nav-locations" id="nav-locations">Hours and Locations</select></li>
+
+      <router-link></router-link>
     </ul>
   </nav>
 </template>
