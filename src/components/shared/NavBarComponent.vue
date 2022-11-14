@@ -8,7 +8,9 @@
 
       <li><select name="nav-locations" id="nav-locations">Hours and Locations</select></li>
 
-      <router-link></router-link>
+      <router-link to="/menu">Menu</router-link>
+
+      <router-link to="/about">About</router-link>
     </ul>
   </nav>
 </template>

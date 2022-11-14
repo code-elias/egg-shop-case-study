@@ -7,7 +7,9 @@ import NavBarComponent from '@/components/shared/NavBarComponent.vue';
   <header>
     <!-- SHOP LOGO -->
     <div class="emg-logo-container">
-      <img src="@/assets/img/egg-shop-logo.png" alt="Egg Shop Logo" class="emg-img-fluid emg-shop-logo">
+      <router-link to="/">
+        <img src="@/assets/img/egg-shop-logo.png" alt="Egg Shop Logo" class="emg-img-fluid emg-shop-logo">
+      </router-link>
     </div>
 
     <!-- NavBar containing the router links to the various pages -->
